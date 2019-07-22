@@ -1,8 +1,6 @@
 pragma solidity ^0.5.0;
 
-import "owned";
-
-contract SmartExchange is owned {
+contract SmartExchange {
 	event AnonymousDeposit(address indexed from, uint value);
 	event Deposit(address indexed from, bytes32 indexed to, uint value);
 	event Transfer(bytes32 indexed from, address indexed to, uint value);
